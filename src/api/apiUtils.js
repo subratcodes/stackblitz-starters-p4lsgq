@@ -14,6 +14,7 @@ function prepareOptions(methodType, headers) {
 
 async function getUsers(options) {
   try {
+    console.log("api called");
     let result = await fetch('https://random-data-api.com/api/v2/users'+options);
     const movies = await result.json();
     return movies;

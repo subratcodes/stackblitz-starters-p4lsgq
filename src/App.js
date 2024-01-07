@@ -1,12 +1,7 @@
 import React from 'react';
 import './style.css';
 import { useState, useEffect, useContext, createContext } from 'react';
-import Loader from 'Loader';
-import Form from './Form';
-import { fetchNorris } from './api/apiUtils.js';
-import Show from './Show.js';
 import { useRef } from 'react';
-import JokeContainer from './JokeContainer';
 import UserContainer from './Components/Users/UserContainer';
 
 export const ThemeContext = createContext([]);
